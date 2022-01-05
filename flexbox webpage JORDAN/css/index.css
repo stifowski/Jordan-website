@@ -1,0 +1,132 @@
+
+/* Main content */
+#psgg {
+    width: 80%;
+    height: 50%;
+    display: block;
+    margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+/* ---------* IMAGES STYLE *---------- */
+#sneakers img {
+   cursor: pointer;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    margin: 0 121px;
+  }
+  .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+    #hyperroyal{
+ height:28em;
+ }
+   #laserorange{
+    height: 22.3em;
+ }
+    #psg{
+    height: 26.2em;
+ }
+ #dior{
+    height:25em;
+ }
+ #trophy{
+    display:none;
+ }
+ /* Text under images */
+ p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 90%;
+    margin: 1em 13em;
+    font-weight: 700;
+ }
+/* PHOTOSHOOT IMAGES STYLE */
+.photoshoot {
+    margin-left: 5px;
+}
+
+/* ------MEDIA QUERIES -----*/
+
+@media only screen and (max-width: 480px) {
+
+ section .photoshoot img{
+   width:228px;
+   height:300px;
+}
+#jordan{
+  
+   display: none;
+}
+#psg,#laserorange,#hyperroyal{
+   height:5em;
+}
+.box-2{
+   height:4em;
+}
+#trophy{
+   display: block;
+   width:100%; 
+   margin-left:-3.5px;
+}
+.header{
+   font-size: 25px;
+}
+.row p{
+   margin:1em 3em;
+}
+.column{
+   margin: 0 155px;
+}
+#psgg{
+   margin-top: 2em;
+}
+}
+@media only screen and (min-width:481px) and (max-width: 681px) {
+
+   .header{
+      font-size: 1em;
+   }
+   #laserorange,#hyperroyal,#psg {
+      height: 7.3em;
+  }
+  #sneaker{
+     
+   height: 17em;
+   width: 49%;
+  }
+  #woman{
+     
+   width: 49%;
+   height: 17em;
+  }
+  #jordan{
+   width: 100%;
+   height: 25em;
+  }
+  #sneakers img{
+     width: 15em;
+     height: 10em;
+     margin-left: 5em;
+  }
+  p{
+     margin:1em 0;
+   width: 26em;
+   text-align: center;
+  }
+}

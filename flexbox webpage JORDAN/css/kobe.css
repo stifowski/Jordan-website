@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+header{
+  
+    background-image: url(../images/kobecover.jpg);
+    background-size: cover;
+    background-position-y:-8em ;
+    height: 11em;
+}
+button{
+    background-color: rgb(122, 231, 19);
+}
+
+#logo1{
+    height: 4em;
+}
+h1{
+    font-size: 4em;
+    color:black;
+}
+
+p{
+    font-family: Hind;
+    text-align: justify;
+    padding: 20px;
+    font-size: 1.8em;
+}
+/* -----------IMAGES---------- */
+#kobe{
+    width:100%;
+    height: 55em;
+    margin-top: 1px;
+}
+.area1 img{
+    width: 60em;
+    height: 40em;
+    margin:10px;
+}
+.text{
+    height: 20%;
+    width: 30%;
+    margin-left: 15em ;
+}
+.image{
+    margin-left: auto;
+    margin-right: auto;
+}
+.text p{
+    font-family: Rock Salt , Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 10px;
+    color:indigo;
+}
+.area1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;     
+}
+.area2 img{
+    width: 60em;
+    height: 40em;
+    margin:10px;
+}
+.text2{
+    height: 20%;
+    width: 30%;
+    margin-left: 15em ;
+}
+.image2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.text2 p{
+    font-family: Rock Salt , Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 10px;
+    color:indigo;
+}
+.area2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;     
+}
+footer{
+    margin-top:10px;
+}
+#change, #change2{
+    margin-right: 3em;
+}
+/* ------MEDIA QUERIES -----*/
+@media only screen and (max-width: 480px) {
+    body{
+        background-color: rgb(116 115 125);
+    }
+    #kobe{
+        height:17em;
+        width:104%;
+        margin-top:1px;
+    }
+    #logo1{
+        height: 2em;
+    }
+    header{
+        background-position-y:0;
+        height:8em;
+        width: 100%;
+    }
+    h1{
+        color:white;
+        font-size: 1em;
+    }
+    p{
+        font-size: 1em;
+        color:white;
+    }
+    .area1 img{
+        width:80%;
+        height: 60%;
+        margin-left:46px;
+    }
+    .area2 img{
+        width:80%;
+        height: 60%;
+        margin-left:46px;
+    }
+    
+    button{
+        margin-bottom: 10px;
+        
+    }
+    #change,#change2{
+        margin-left:3em;
+        font-size: 1em;
+    }
+    .text, .text2{
+        margin-left:11em;
+    }
+    #login{
+        margin-right:13px;
+        padding:4px 17px;
+        
+    }
+    nav ul li a{
+        margin-left:10px;
+    }
+    
+  }
+  @media only screen and (min-width:481px) and (max-width: 681px) {
+      header{
+        background-position-y: 0;
+        width: 100%;
+      }
+      .area1 img{
+        width: 99%;
+        height: 68%;
+      }
+      .area2 img{
+        width: 99%;
+        height: 68%;
+      }
+      #kobe {
+        width: 103%;
+        height: 22em;
+        margin-top: 1px;
+    }
+    #logo1 {
+        height: 2em;
+    }
+    h1 {
+        font-size: 2em;
+        color: black;
+    }
+    p{
+        font-size: 1.2em
+    }
+    .text{
+        margin-left:5em;
+    }
+    .text2{
+        margin-left:5em;
+    }
+    .text p{
+        width:12em;
+    }
+    .text2 p{
+        width:12em;
+    }
+    nav ul li a{
+        margin-right: 0.5em;
+    }
+  }

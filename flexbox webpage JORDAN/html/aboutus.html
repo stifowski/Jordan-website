@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/aboutus.css">
+    <title>Most Dope</title>
+</head>
+<body>
+
+<!-- Menu -->
+    <header>
+<img class="logo" id="logo1" src="../logo/swooshlogo.png" alt="swooshlogo">
+<h1>Most Dope</h1>
+<img class="logo" id="logo2"src="../logo/jordanlogo.png" alt="jordanlogo">
+
+
+        <nav>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <div class="dropdown">
+               
+                    <li class="dropbtn"><a href="#">Categories</a></li>
+                        <div class="dropdown-content">
+                    <a href="kobe.html">Kobe's</a>
+                    <a href="#">Yeezy's</a>
+                    <a href="#">Kids</a>
+                        </div>
+                </div>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>   
+        </nav>
+        <a href="#"><button>Log In</button></a>
+    </header>
+<!-- Main Content -->
+
+<section id="section">
+
+    <div class="container1">
+        <div class="box-1">
+            <p id="text">New trend <br> of sneakers generation
+                <div id="small">
+                    Our mission is to provide access to the world’s most coveted items <br>
+                    in the smartest way possible. 
+                    Buy the hottest sneakers and accessories.
+                </div>
+            </p>
+        
+        </div>
+        <div class="box-2">
+            <img id="spacejam2" src="../images/spacejam2.png" alt="space jam 2">
+        </div>
+    </div>
+    <div class="container2">
+        <div class="box3">
+            <img src="../images/plus.png" width="20px" height="20px"> Buyers
+        </div>
+        <div class="box3">
+            <img src="../images/plus.png" width="20px" height="20px"> Reviews
+        </div>
+        <div class="box3">
+            <img src="../images/plus.png" width="20px" height="20px"> Locations
+        </div>
+    </div>
+</section>
+
+<main>
+    <div id="index-gallery">
+        <div class="item">
+          <img src="../images/sneakers.svg">
+          <p>100% Quality</p>
+        </div>
+        <div class="item">
+          <img src="../images/worldwide.svg" alt=""/>
+          <p>Worldwide Shipping</p>
+        </div>
+      
+        <div class="item">
+          <img src="../images/secure-shield.svg" alt=""/>
+          <p>Maximal Security</p>
+        </div>
+      </div>
+    
+    
+</main>
+   
+
+<!------- *IMAGES *------->
+
+
+
+<!------------* FOOTER *------------>
+    <footer>
+        <button id="button" onclick="myfunction()">Click me !</button>
+        
+       <div class="container-1">
+           <div class="box-1">
+                <div class="box2">
+                    <ul class="ul">
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="help.html">Help</a></li>
+                        <li><a href="#">Service</a></li>
+                    </ul>
+                </div>
+           </div>
+           
+                <div class="box-2">
+                    <ul>
+                        <li><a href="tel:+356 044 333 2222"><img class="svg" src="../svg/telephone-1831922.svg">Contact: +356 044 333 2222</a></li>
+                        <li><a href="#"><img class="svg" src="../svg/insta.png">Most_Dope_2021</a></li>
+                        <li><a href="https://goo.gl/maps/61u9iy4257sKPf1X6"><img class="svg" src="../svg/map-pin.svg">Location</a></li>
+                    </ul>
+                
+           </div>
+           
+           <div class="box1">
+               <div class="box2">
+                <div class="box-3">
+                    <ul>
+                        <li id="privacy"><a href="#">Security Privacy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Store Locations</a></li>
+                    </ul>
+                    </div>
+                </div>
+           </div>
+           
+       </div>
+      
+    </footer>
+    
+    <script>
+        // Code for random colors on click !
+    var buton=document.getElementById('button');
+    var allchar="0123456789ABCDEF";
+
+    buton.addEventListener("click",myFun);
+
+    function myFun()
+    {
+        var  randcol= "";
+        for(var i=0; i<6; i++){
+        randcol += allchar[Math.floor(Math.random()*16)];
+    }
+    document.body.style.backgroundColor= "#"+randcol;
+    }
+    </script>
+</body>
+</html>

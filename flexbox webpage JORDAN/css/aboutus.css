@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@600&display=swap');
+
+/* -----SECTION 1 -----  */
+section{
+    background-color: rgb(231, 205, 243);
+}
+.container1{
+    display:flex;
+    justify-content:center;
+    
+    
+    
+}
+.box-1{
+     margin-left: 15px;
+}
+.box-2{
+    margin-left: 2.5em;
+}
+.box-1 p {
+    text-align: left;
+}
+#text{
+    font-size: 3.5em;
+    font-weight: 700;
+    font-family: Hind,Arial, Helvetica, sans-serif;
+    line-height: 1em;
+}
+#small{
+    font-size: 20px;
+    font-family: Hind,Arial, Helvetica, sans-serif;
+}
+#spacejam2{
+    width: 55em;
+    height: 32em;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+}
+.box3{
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: rgb(90, 185, 197);
+    margin-top: 30px;
+    margin:20px;
+    padding: 10px;
+    font-family: Hind,Arial, Helvetica, sans-serif;
+    color:white;
+    letter-spacing: 2px;
+}
+
+/* ------ MAIN ------  */
+
+main {
+    background-color: rgb(241, 234, 234);
+}
+.item p{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  #index-gallery{
+    display: flex;
+    justify-content: center;
+    
+  }
+  #index-gallery img{
+      width: 10em;
+      height: 10em;
+      margin: 20px;
+  }
+  #section,main{
+      margin:10px;
+  }
+/* BUTTON style */
+#button{
+    padding:20px;
+}
+
+  @media only screen and (max-width: 480px) {
+
+    #spacejam2{
+        width:16em;
+        height: 12em;
+    }
+    .box3{
+        font-size: 14px;
+    }
+    #text{
+        font-size: 2em;
+    }
+    #small{
+        font-size: 13px;
+        text-align: justify;
+    }
+    .box-2{
+        height: 2em;
+    }
+    #section,main{
+        margin:0px;
+    }
+    #index-gallery img{
+        width: 4em;
+        height: 4em;
+        margin: 10px;
+    }
+    .item p{
+        font-size: 10px;
+    }
+    #index-gallery .item {
+        margin-right: 10px;
+    }
+   
+  }
+  @media only screen and (min-width:481px) and (max-width: 681px) {
+
+      #spacejam2{
+          width: 17em;
+          height: 10em;
+      }
+  }

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+header{
+    background-color: black;
+}
+button{
+    background-color: white;
+    color:black;
+}
+body{
+    background-color: black;
+}
+#help p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+    font-size: 40px;
+}
+/* ----------   FORM PROPERTIES ---------*/
+input[type=text] {
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 56%;
+  }
+  
+input{
+    width: 30%;
+    height: 3em;
+    text-align: left;
+    margin:0 25em;
+}
+::placeholder{
+  
+ font-size: 20px;
+}
+/*BLOCKS properties*/
+.areea{
+  
+    display: flex;
+    justify-content: center;
+}
+.cont1 p{
+    margin-top: 3em;
+    text-align: center;
+}
+.cont1{
+    cursor: pointer;
+    text-align: center;
+    height: 10em;
+    width: 10em;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    margin:5em 10px;
+    background-color: rgb(238, 113, 68);
+}
+
+/* MEDIA QUERIES*/
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 13px;
+    }
+    #help p {
+        font-size:20px;
+    }
+    input{
+        margin: 0px 7em;
+    }
+    .cont1 p {
+        margin-top: 1em;
+        text-align: center;
+    }
+    .cont1 {
+        height:7em;
+    }
+    footer{ 
+        width:102%;
+    }
+    input[type=text] {
+        height: 2em;
+    }
+ 
+}
+@media only screen and (min-width:481px) and (max-width: 681px) {
+    #help p{
+        font-size:25px;
+    }
+    h1{
+        font-size: 16px;
+    }
+    input{
+        margin: 0 10em;
+    }
+    .cont1 {
+        height: 8em;
+        width: 7em;
+        font-size: 16px;
+    }
+    input[type=text] {
+        height: 2em;
+    }
+}
